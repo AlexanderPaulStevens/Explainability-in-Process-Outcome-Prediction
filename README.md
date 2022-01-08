@@ -1,1 +1,1 @@
-# A Study on Explainability versus Performance inOutcome-Oriented Predictive Process Monitoring
+# A Study on Explainability versus Performance in Outcome-Oriented Predictive Process Monitoring
