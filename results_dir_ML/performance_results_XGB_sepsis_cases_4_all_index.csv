@@ -1,0 +1,29 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_4;all_index;XGB;1;-1;auc;0.6945488721804511
+sepsis_cases_4;all_index;XGB;2;-1;auc;0.6964285714285714
+sepsis_cases_4;all_index;XGB;3;-1;auc;0.700814536340852
+sepsis_cases_4;all_index;XGB;4;-1;auc;0.7095864661654134
+sepsis_cases_4;all_index;XGB;5;-1;auc;0.7158521303258145
+sepsis_cases_4;all_index;XGB;6;-1;auc;0.7221177944862156
+sepsis_cases_4;all_index;XGB;7;-1;auc;0.7158521303258145
+sepsis_cases_4;all_index;XGB;8;-1;auc;0.7189102564102564
+sepsis_cases_4;all_index;XGB;9;-1;auc;0.7177734374999999
+sepsis_cases_4;all_index;XGB;10;-1;auc;0.7141596045197741
+sepsis_cases_4;all_index;XGB;11;-1;auc;0.7276456111566858
+sepsis_cases_4;all_index;XGB;12;-1;auc;0.7128412537917088
+sepsis_cases_4;all_index;XGB;13;-1;auc;0.7142857142857143
+sepsis_cases_4;all_index;XGB;14;-1;auc;0.697111631537861
+sepsis_cases_4;all_index;XGB;15;-1;auc;0.6483957219251336
+sepsis_cases_4;all_index;XGB;16;-1;auc;0.6517857142857143
+sepsis_cases_4;all_index;XGB;17;-1;auc;0.6538461538461539
+sepsis_cases_4;all_index;XGB;18;-1;auc;0.6430769230769231
+sepsis_cases_4;all_index;XGB;19;-1;auc;0.6363636363636364
+sepsis_cases_4;all_index;XGB;20;-1;auc;0.725
+sepsis_cases_4;all_index;XGB;21;-1;auc;0.7058823529411764
+sepsis_cases_4;all_index;XGB;22;-1;auc;0.653061224489796
+sepsis_cases_4;all_index;XGB;-1;auc;0.6938383630661663
+event columns:;502;  case columns:;183;  control columns:;178
+parsimony event;0.20916334661354583;parsimony case;0.453551912568306;parsimony control;0.08426966292134831
+FC event;0.9101372288623285;FC case;0.07436918990703852;FC control;0.036741921204072596
+monotonicity;0.33321584910243135
+shap event;6;shap case;4;shap control;0feature_event;4;feature_case;6;feature_control;0

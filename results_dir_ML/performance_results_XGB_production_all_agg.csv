@@ -1,0 +1,24 @@
+dataset;method;cls;nr_events;metric;score
+production;all_agg;XGB;1;-1;auc;0.6309523809523809
+production;all_agg;XGB;2;-1;auc;0.656084656084656
+production;all_agg;XGB;3;-1;auc;0.7023411371237458
+production;all_agg;XGB;4;-1;auc;0.73
+production;all_agg;XGB;5;-1;auc;0.6799999999999999
+production;all_agg;XGB;6;-1;auc;0.7589285714285714
+production;all_agg;XGB;7;-1;auc;0.7738095238095238
+production;all_agg;XGB;8;-1;auc;0.7012987012987012
+production;all_agg;XGB;9;-1;auc;0.85
+production;all_agg;XGB;10;-1;auc;0.8333333333333333
+production;all_agg;XGB;11;-1;auc;0.9166666666666666
+production;all_agg;XGB;12;-1;auc;1.0
+production;all_agg;XGB;13;-1;auc;1.0
+production;all_agg;XGB;14;-1;auc;1.0
+production;all_agg;XGB;15;-1;auc;1.0
+production;all_agg;XGB;16;-1;auc;1.0
+production;all_agg;XGB;17;-1;auc;nan
+production;all_agg;XGB;-1;auc;0.7409657650042266
+event columns:;107;  case columns:;35;  control columns:;26
+parsimony event;0.7476635514018691;parsimony case;0.2;parsimony control;0.5769230769230769
+FC event;0.3706293706293706;FC case;0.3111888111888112;FC control;0.28321678321678323
+monotonicity;0.8815184511682337
+shap event;8;shap case;2;shap control;0feature_event;6;feature_case;3;feature_control;1

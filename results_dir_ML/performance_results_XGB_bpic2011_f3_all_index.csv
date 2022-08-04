@@ -1,0 +1,38 @@
+dataset;method;cls;nr_events;metric;score
+bpic2011_f3;all_index;XGB;1;-1;auc;0.9400862068965519
+bpic2011_f3;all_index;XGB;2;-1;auc;0.9419907112284857
+bpic2011_f3;all_index;XGB;3;-1;auc;0.9346672111065741
+bpic2011_f3;all_index;XGB;4;-1;auc;0.9306456759919157
+bpic2011_f3;all_index;XGB;5;-1;auc;0.9263110307414104
+bpic2011_f3;all_index;XGB;6;-1;auc;0.9200723327305605
+bpic2011_f3;all_index;XGB;7;-1;auc;0.9195472249269717
+bpic2011_f3;all_index;XGB;8;-1;auc;0.9237999749342022
+bpic2011_f3;all_index;XGB;9;-1;auc;0.9825792705852863
+bpic2011_f3;all_index;XGB;10;-1;auc;0.9880937460834691
+bpic2011_f3;all_index;XGB;11;-1;auc;0.9937348165196267
+bpic2011_f3;all_index;XGB;12;-1;auc;0.9938626774069812
+bpic2011_f3;all_index;XGB;13;-1;auc;0.9938626774069812
+bpic2011_f3;all_index;XGB;14;-1;auc;0.9954325981991388
+bpic2011_f3;all_index;XGB;15;-1;auc;0.9954325981991388
+bpic2011_f3;all_index;XGB;16;-1;auc;0.9953740417657944
+bpic2011_f3;all_index;XGB;17;-1;auc;0.9953740417657944
+bpic2011_f3;all_index;XGB;18;-1;auc;0.9953740417657944
+bpic2011_f3;all_index;XGB;19;-1;auc;0.995202850877193
+bpic2011_f3;all_index;XGB;20;-1;auc;0.9953547297297297
+bpic2011_f3;all_index;XGB;21;-1;auc;0.995018115942029
+bpic2011_f3;all_index;XGB;22;-1;auc;0.9923444976076555
+bpic2011_f3;all_index;XGB;23;-1;auc;0.9913043478260869
+bpic2011_f3;all_index;XGB;24;-1;auc;0.9885433715220949
+bpic2011_f3;all_index;XGB;25;-1;auc;0.9840425531914894
+bpic2011_f3;all_index;XGB;26;-1;auc;0.9848024316109423
+bpic2011_f3;all_index;XGB;27;-1;auc;0.9888888888888889
+bpic2011_f3;all_index;XGB;28;-1;auc;0.9887640449438202
+bpic2011_f3;all_index;XGB;29;-1;auc;0.990909090909091
+bpic2011_f3;all_index;XGB;30;-1;auc;0.9886363636363636
+bpic2011_f3;all_index;XGB;31;-1;auc;0.988235294117647
+bpic2011_f3;all_index;XGB;-1;auc;0.9769943350934059
+event columns:;1871;  case columns:;670;  control columns:;1980
+parsimony event;0.14377338321753072;parsimony case;0.06417910447761194;parsimony control;0.044444444444444446
+FC event;0.24345870809484874;FC case;0.21954210956663942;FC control;0.10016353229762878
+monotonicity;0.723445510891683
+shap event;4;shap case;6;shap control;0feature_event;2;feature_case;8;feature_control;0
