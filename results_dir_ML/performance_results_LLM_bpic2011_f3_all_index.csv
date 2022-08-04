@@ -1,0 +1,37 @@
+dataset;method;cls;nr_events;metric;score
+bpic2011_f3;all_index;LLM;1;-1;auc;0.9349568965517242
+bpic2011_f3;all_index;LLM;2;-1;auc;0.9362079956288134
+bpic2011_f3;all_index;LLM;3;-1;auc;0.9298182931808903
+bpic2011_f3;all_index;LLM;4;-1;auc;0.9296351451973194
+bpic2011_f3;all_index;LLM;5;-1;auc;0.9264805605786619
+bpic2011_f3;all_index;LLM;6;-1;auc;0.9239903556359252
+bpic2011_f3;all_index;LLM;7;-1;auc;0.923259493670886
+bpic2011_f3;all_index;LLM;8;-1;auc;0.9276851735806493
+bpic2011_f3;all_index;LLM;9;-1;auc;0.9701717007143752
+bpic2011_f3;all_index;LLM;10;-1;auc;0.9730542674520616
+bpic2011_f3;all_index;LLM;11;-1;auc;0.9723820483314155
+bpic2011_f3;all_index;LLM;12;-1;auc;0.9723820483314155
+bpic2011_f3;all_index;LLM;13;-1;auc;0.9723820483314155
+bpic2011_f3;all_index;LLM;14;-1;auc;0.9736395667493148
+bpic2011_f3;all_index;LLM;15;-1;auc;0.9736395667493148
+bpic2011_f3;all_index;LLM;16;-1;auc;0.9733676975945017
+bpic2011_f3;all_index;LLM;17;-1;auc;0.9733676975945017
+bpic2011_f3;all_index;LLM;18;-1;auc;0.9733676975945017
+bpic2011_f3;all_index;LLM;19;-1;auc;0.9732730263157895
+bpic2011_f3;all_index;LLM;20;-1;auc;0.9729025900900902
+bpic2011_f3;all_index;LLM;21;-1;auc;0.9724486714975845
+bpic2011_f3;all_index;LLM;22;-1;auc;0.9694976076555023
+bpic2011_f3;all_index;LLM;23;-1;auc;0.9645308924485126
+bpic2011_f3;all_index;LLM;24;-1;auc;0.95949263502455
+bpic2011_f3;all_index;LLM;25;-1;auc;0.980718085106383
+bpic2011_f3;all_index;LLM;26;-1;auc;0.9810030395136778
+bpic2011_f3;all_index;LLM;27;-1;auc;0.9944444444444445
+bpic2011_f3;all_index;LLM;28;-1;auc;0.9943820224719101
+bpic2011_f3;all_index;LLM;29;-1;auc;0.9931818181818182
+bpic2011_f3;all_index;LLM;30;-1;auc;0.9943181818181818
+bpic2011_f3;all_index;LLM;31;-1;auc;0.9941176470588236
+bpic2011_f3;all_index;LLM;-1;auc;0.9670747151079477
+event columns:;1871;  case columns:;670;  control columns:;1980
+parsimony event;0.0;parsimony case;0.03134328358208955;parsimony control;0.0035353535353535356
+FC event;0.2867947669664759;FC case;0.11242845461978741;FC control;0.6089533932951758
+monotonicity;1

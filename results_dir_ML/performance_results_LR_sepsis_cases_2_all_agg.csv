@@ -1,0 +1,19 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_2;all_agg;LR;1;-1;auc;0.9033670033670033
+sepsis_cases_2;all_agg;LR;2;-1;auc;0.907070707070707
+sepsis_cases_2;all_agg;LR;3;-1;auc;0.9030303030303031
+sepsis_cases_2;all_agg;LR;4;-1;auc;0.9084175084175085
+sepsis_cases_2;all_agg;LR;5;-1;auc;0.9495590828924162
+sepsis_cases_2;all_agg;LR;6;-1;auc;0.9448148148148149
+sepsis_cases_2;all_agg;LR;7;-1;auc;0.939571150097466
+sepsis_cases_2;all_agg;LR;8;-1;auc;0.9391812865497076
+sepsis_cases_2;all_agg;LR;9;-1;auc;0.9187396351575456
+sepsis_cases_2;all_agg;LR;10;-1;auc;0.8815384615384616
+sepsis_cases_2;all_agg;LR;11;-1;auc;0.9449035812672176
+sepsis_cases_2;all_agg;LR;12;-1;auc;0.9333333333333333
+sepsis_cases_2;all_agg;LR;13;-1;auc;0.9219858156028369
+sepsis_cases_2;all_agg;LR;-1;auc;0.9279114502853901
+event columns:;78;  case columns:;183;  control columns:;15
+parsimony event;0.2692307692307692;parsimony case;0.34972677595628415;parsimony control;0.26666666666666666
+FC event;0.36363636363636365;FC case;0.07584722969338353;FC control;0.0
+monotonicity;1

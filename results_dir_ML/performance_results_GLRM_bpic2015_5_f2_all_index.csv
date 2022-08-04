@@ -1,0 +1,46 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_5_f2;all_index;GLRM;1;-1;auc;0.6344405594405595
+bpic2015_5_f2;all_index;GLRM;2;-1;auc;0.6662004662004664
+bpic2015_5_f2;all_index;GLRM;3;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;4;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;5;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;6;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;7;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;8;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;9;-1;auc;0.6655011655011656
+bpic2015_5_f2;all_index;GLRM;10;-1;auc;0.6687390029325513
+bpic2015_5_f2;all_index;GLRM;11;-1;auc;0.6685950413223142
+bpic2015_5_f2;all_index;GLRM;12;-1;auc;0.671182412358883
+bpic2015_5_f2;all_index;GLRM;13;-1;auc;0.6772426249247442
+bpic2015_5_f2;all_index;GLRM;14;-1;auc;0.6772426249247442
+bpic2015_5_f2;all_index;GLRM;15;-1;auc;0.6887592137592138
+bpic2015_5_f2;all_index;GLRM;16;-1;auc;0.6887592137592138
+bpic2015_5_f2;all_index;GLRM;17;-1;auc;0.6934446505875078
+bpic2015_5_f2;all_index;GLRM;18;-1;auc;0.7763387297633872
+bpic2015_5_f2;all_index;GLRM;19;-1;auc;0.8261519302615192
+bpic2015_5_f2;all_index;GLRM;20;-1;auc;0.831974921630094
+bpic2015_5_f2;all_index;GLRM;21;-1;auc;0.8407170294494237
+bpic2015_5_f2;all_index;GLRM;22;-1;auc;0.8437137330754352
+bpic2015_5_f2;all_index;GLRM;23;-1;auc;0.8355899419729208
+bpic2015_5_f2;all_index;GLRM;24;-1;auc;0.8493230174081238
+bpic2015_5_f2;all_index;GLRM;25;-1;auc;0.8445737990097685
+bpic2015_5_f2;all_index;GLRM;26;-1;auc;0.8445737990097685
+bpic2015_5_f2;all_index;GLRM;27;-1;auc;0.8464959568733154
+bpic2015_5_f2;all_index;GLRM;28;-1;auc;0.8464959568733154
+bpic2015_5_f2;all_index;GLRM;29;-1;auc;0.8464959568733154
+bpic2015_5_f2;all_index;GLRM;30;-1;auc;0.8468328840970352
+bpic2015_5_f2;all_index;GLRM;31;-1;auc;0.8468328840970352
+bpic2015_5_f2;all_index;GLRM;32;-1;auc;0.8486493823808877
+bpic2015_5_f2;all_index;GLRM;33;-1;auc;0.8486493823808877
+bpic2015_5_f2;all_index;GLRM;34;-1;auc;0.8488529930772364
+bpic2015_5_f2;all_index;GLRM;35;-1;auc;0.8589761376248612
+bpic2015_5_f2;all_index;GLRM;36;-1;auc;0.8587680355160933
+bpic2015_5_f2;all_index;GLRM;37;-1;auc;0.8599580712788261
+bpic2015_5_f2;all_index;GLRM;38;-1;auc;0.8599580712788261
+bpic2015_5_f2;all_index;GLRM;39;-1;auc;0.8599580712788261
+bpic2015_5_f2;all_index;GLRM;40;-1;auc;0.8671383647798743
+bpic2015_5_f2;all_index;GLRM;-1;auc;0.7754262940327394
+event columns:;1419;  case columns:;25;  control columns:;2537
+parsimony event;0.005637773079633545;parsimony case;0.08;parsimony control;0.0043358297201418995
+FC event;0.6450118913506071;FC case;0.34209538114908;FC control;0.33571160345475026
+monotonicity;1

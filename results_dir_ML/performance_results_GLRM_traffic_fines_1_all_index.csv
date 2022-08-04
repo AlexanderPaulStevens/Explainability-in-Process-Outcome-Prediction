@@ -1,0 +1,17 @@
+dataset;method;cls;nr_events;metric;score
+traffic_fines_1;all_index;GLRM;1;-1;auc;0.5276346423629281
+traffic_fines_1;all_index;GLRM;2;-1;auc;0.8599787639695597
+traffic_fines_1;all_index;GLRM;3;-1;auc;0.5369698749179921
+traffic_fines_1;all_index;GLRM;4;-1;auc;0.616722397624537
+traffic_fines_1;all_index;GLRM;5;-1;auc;0.5128379429720464
+traffic_fines_1;all_index;GLRM;6;-1;auc;0.4138425925925926
+traffic_fines_1;all_index;GLRM;7;-1;auc;0.4970991561181434
+traffic_fines_1;all_index;GLRM;8;-1;auc;0.5105868118572293
+traffic_fines_1;all_index;GLRM;9;-1;auc;0.5053763440860215
+traffic_fines_1;all_index;GLRM;10;-1;auc;0.8095238095238095
+traffic_fines_1;all_index;GLRM;-1;auc;0.7953494699295693
+event columns:;1229;  case columns:;54;  control columns:;49
+parsimony event;0.009764035801464606;parsimony case;0.1111111111111111;parsimony control;0.10204081632653061
+FC event;0.7712978651304643;FC case;0.020106178696487068;FC control;0.7180842652208291
+monotonicity;1
+parsimony controlcase;0.0;parsimony eventcase;0.0
