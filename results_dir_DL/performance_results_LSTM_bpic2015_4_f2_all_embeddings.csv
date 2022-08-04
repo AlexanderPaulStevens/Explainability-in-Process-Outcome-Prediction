@@ -1,0 +1,46 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_4_f2;all_embeddings;LSTM;1;-1;auc;0.7003300330033002
+bpic2015_4_f2;all_embeddings;LSTM;2;-1;auc;0.4328147100424329
+bpic2015_4_f2;all_embeddings;LSTM;3;-1;auc;0.4441301272984441
+bpic2015_4_f2;all_embeddings;LSTM;4;-1;auc;0.4512022630834512
+bpic2015_4_f2;all_embeddings;LSTM;5;-1;auc;0.5162659123055162
+bpic2015_4_f2;all_embeddings;LSTM;6;-1;auc;0.3762376237623762
+bpic2015_4_f2;all_embeddings;LSTM;7;-1;auc;0.3543140028288544
+bpic2015_4_f2;all_embeddings;LSTM;8;-1;auc;0.3635077793493635
+bpic2015_4_f2;all_embeddings;LSTM;9;-1;auc;0.36775106082036774
+bpic2015_4_f2;all_embeddings;LSTM;10;-1;auc;0.4185714285714286
+bpic2015_4_f2;all_embeddings;LSTM;11;-1;auc;0.44214285714285717
+bpic2015_4_f2;all_embeddings;LSTM;12;-1;auc;0.44571428571428573
+bpic2015_4_f2;all_embeddings;LSTM;13;-1;auc;0.4564285714285714
+bpic2015_4_f2;all_embeddings;LSTM;14;-1;auc;0.6015037593984962
+bpic2015_4_f2;all_embeddings;LSTM;15;-1;auc;0.8842105263157894
+bpic2015_4_f2;all_embeddings;LSTM;16;-1;auc;0.912613981762918
+bpic2015_4_f2;all_embeddings;LSTM;17;-1;auc;0.9445288753799392
+bpic2015_4_f2;all_embeddings;LSTM;18;-1;auc;0.9666149068322981
+bpic2015_4_f2;all_embeddings;LSTM;19;-1;auc;0.9704968944099378
+bpic2015_4_f2;all_embeddings;LSTM;20;-1;auc;0.9791332263242376
+bpic2015_4_f2;all_embeddings;LSTM;21;-1;auc;0.9865546218487394
+bpic2015_4_f2;all_embeddings;LSTM;22;-1;auc;0.9879518072289157
+bpic2015_4_f2;all_embeddings;LSTM;23;-1;auc;0.9850088183421517
+bpic2015_4_f2;all_embeddings;LSTM;24;-1;auc;0.9828209764918626
+bpic2015_4_f2;all_embeddings;LSTM;25;-1;auc;0.9835164835164835
+bpic2015_4_f2;all_embeddings;LSTM;26;-1;auc;0.9842857142857143
+bpic2015_4_f2;all_embeddings;LSTM;27;-1;auc;0.9847619047619047
+bpic2015_4_f2;all_embeddings;LSTM;28;-1;auc;0.9897435897435898
+bpic2015_4_f2;all_embeddings;LSTM;29;-1;auc;0.9931506849315068
+bpic2015_4_f2;all_embeddings;LSTM;30;-1;auc;0.9930555555555556
+bpic2015_4_f2;all_embeddings;LSTM;31;-1;auc;0.9929577464788732
+bpic2015_4_f2;all_embeddings;LSTM;32;-1;auc;0.9929577464788732
+bpic2015_4_f2;all_embeddings;LSTM;33;-1;auc;0.9953051643192489
+bpic2015_4_f2;all_embeddings;LSTM;34;-1;auc;0.9923175416133163
+bpic2015_4_f2;all_embeddings;LSTM;35;-1;auc;0.9923175416133163
+bpic2015_4_f2;all_embeddings;LSTM;36;-1;auc;0.9910371318822023
+bpic2015_4_f2;all_embeddings;LSTM;37;-1;auc;0.9910371318822023
+bpic2015_4_f2;all_embeddings;LSTM;38;-1;auc;0.9915492957746479
+bpic2015_4_f2;all_embeddings;LSTM;39;-1;auc;0.9914285714285714
+bpic2015_4_f2;all_embeddings;LSTM;40;-1;auc;0.9885714285714285
+bpic2015_4_f2;all_embeddings;LSTM;-1;auc;0.8792438936067798
+event columns:;11;  case columns:;15;  control columns:;1
+parsimony event;1.0;parsimony case;1.0;parsimony control;1.0
+FC event;0.042188933047997555;FC case;0.00707136495952574;FC control;0.03300413382425266
+monotonicity;0.4769312323459101

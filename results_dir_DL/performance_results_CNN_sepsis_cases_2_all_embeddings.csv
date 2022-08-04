@@ -1,0 +1,20 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_2;all_embeddings;CNN;1;-1;auc;0.8417508417508417
+sepsis_cases_2;all_embeddings;CNN;2;-1;auc;0.8454545454545455
+sepsis_cases_2;all_embeddings;CNN;3;-1;auc;0.8414141414141414
+sepsis_cases_2;all_embeddings;CNN;4;-1;auc;0.8494949494949494
+sepsis_cases_2;all_embeddings;CNN;5;-1;auc;0.872310405643739
+sepsis_cases_2;all_embeddings;CNN;6;-1;auc;0.8629629629629629
+sepsis_cases_2;all_embeddings;CNN;7;-1;auc;0.8565302144249513
+sepsis_cases_2;all_embeddings;CNN;8;-1;auc;0.8512670565302144
+sepsis_cases_2;all_embeddings;CNN;9;-1;auc;0.7048092868988391
+sepsis_cases_2;all_embeddings;CNN;10;-1;auc;0.62
+sepsis_cases_2;all_embeddings;CNN;11;-1;auc;0.674931129476584
+sepsis_cases_2;all_embeddings;CNN;12;-1;auc;0.6909090909090909
+sepsis_cases_2;all_embeddings;CNN;13;-1;auc;0.7092198581560284
+sepsis_cases_2;all_embeddings;CNN;-1;auc;0.8222682980669167
+event columns:;12;  case columns:;24;  control columns:;1
+parsimony event;1.0;parsimony case;1.0;parsimony control;1.0
+FC event;0.024737876802096985;FC case;0.05979685452162516;FC control;0.047182175622542594
+monotonicity;-0.5806964907937987
+shap event;1;shap case;9;shap control;0feature_event;6;feature_case;3;feature_control;0

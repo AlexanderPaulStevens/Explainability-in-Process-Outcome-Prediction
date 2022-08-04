@@ -1,0 +1,29 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_4;all_embeddings;LSTM;1;-1;auc;0.6757518796992481
+sepsis_cases_4;all_embeddings;LSTM;2;-1;auc;0.6600877192982456
+sepsis_cases_4;all_embeddings;LSTM;3;-1;auc;0.6585213032581454
+sepsis_cases_4;all_embeddings;LSTM;4;-1;auc;0.637218045112782
+sepsis_cases_4;all_embeddings;LSTM;5;-1;auc;0.6224937343358397
+sepsis_cases_4;all_embeddings;LSTM;6;-1;auc;0.6203007518796992
+sepsis_cases_4;all_embeddings;LSTM;7;-1;auc;0.6267230576441103
+sepsis_cases_4;all_embeddings;LSTM;8;-1;auc;0.6400641025641026
+sepsis_cases_4;all_embeddings;LSTM;9;-1;auc;0.6492513020833333
+sepsis_cases_4;all_embeddings;LSTM;10;-1;auc;0.6659604519774012
+sepsis_cases_4;all_embeddings;LSTM;11;-1;auc;0.6573010664479082
+sepsis_cases_4;all_embeddings;LSTM;12;-1;auc;0.6686046511627907
+sepsis_cases_4;all_embeddings;LSTM;13;-1;auc;0.681055900621118
+sepsis_cases_4;all_embeddings;LSTM;14;-1;auc;0.6592505854800937
+sepsis_cases_4;all_embeddings;LSTM;15;-1;auc;0.641042780748663
+sepsis_cases_4;all_embeddings;LSTM;16;-1;auc;0.66875
+sepsis_cases_4;all_embeddings;LSTM;17;-1;auc;0.6634615384615385
+sepsis_cases_4;all_embeddings;LSTM;18;-1;auc;0.6984615384615385
+sepsis_cases_4;all_embeddings;LSTM;19;-1;auc;0.7613636363636362
+sepsis_cases_4;all_embeddings;LSTM;20;-1;auc;0.7437499999999999
+sepsis_cases_4;all_embeddings;LSTM;21;-1;auc;0.7205882352941176
+sepsis_cases_4;all_embeddings;LSTM;22;-1;auc;0.7346938775510203
+sepsis_cases_4;all_embeddings;LSTM;-1;auc;0.6471036193511902
+event columns:;12;  case columns:;24;  control columns:;1
+parsimony event;1.0;parsimony case;1.0;parsimony control;1.0
+FC event;0.02759610783219014;FC case;0.018929122135375127;FC control;0.018982293826766628
+monotonicity;0.4330801865920106
+shap event;1;shap case;8;shap control;1feature_event;2;feature_case;8;feature_control;0

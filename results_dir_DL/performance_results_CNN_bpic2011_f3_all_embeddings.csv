@@ -1,0 +1,37 @@
+dataset;method;cls;nr_events;metric;score
+bpic2011_f3;all_embeddings;CNN;1;-1;auc;0.8814655172413792
+bpic2011_f3;all_embeddings;CNN;2;-1;auc;0.8700482651853201
+bpic2011_f3;all_embeddings;CNN;3;-1;auc;0.8946508779093507
+bpic2011_f3;all_embeddings;CNN;4;-1;auc;0.8932028507605575
+bpic2011_f3;all_embeddings;CNN;5;-1;auc;0.8882798372513563
+bpic2011_f3;all_embeddings;CNN;6;-1;auc;0.8848704038577456
+bpic2011_f3;all_embeddings;CNN;7;-1;auc;0.8883885102239533
+bpic2011_f3;all_embeddings;CNN;8;-1;auc;0.895099636545933
+bpic2011_f3;all_embeddings;CNN;9;-1;auc;0.9007394410327109
+bpic2011_f3;all_embeddings;CNN;10;-1;auc;0.9278105025692444
+bpic2011_f3;all_embeddings;CNN;11;-1;auc;0.945275540212249
+bpic2011_f3;all_embeddings;CNN;12;-1;auc;0.947065592635213
+bpic2011_f3;all_embeddings;CNN;13;-1;auc;0.9354941823296254
+bpic2011_f3;all_embeddings;CNN;14;-1;auc;0.9117186480490669
+bpic2011_f3;all_embeddings;CNN;15;-1;auc;0.898407934229414
+bpic2011_f3;all_embeddings;CNN;16;-1;auc;0.8928760243193232
+bpic2011_f3;all_embeddings;CNN;17;-1;auc;0.9008723235527359
+bpic2011_f3;all_embeddings;CNN;18;-1;auc;0.9099920697858842
+bpic2011_f3;all_embeddings;CNN;19;-1;auc;0.9163925438596491
+bpic2011_f3;all_embeddings;CNN;20;-1;auc;0.9282798423423424
+bpic2011_f3;all_embeddings;CNN;21;-1;auc;0.92512077294686
+bpic2011_f3;all_embeddings;CNN;22;-1;auc;0.8961722488038278
+bpic2011_f3;all_embeddings;CNN;23;-1;auc;0.8814645308924485
+bpic2011_f3;all_embeddings;CNN;24;-1;auc;0.8412438625204582
+bpic2011_f3;all_embeddings;CNN;25;-1;auc;0.8617021276595744
+bpic2011_f3;all_embeddings;CNN;26;-1;auc;0.831306990881459
+bpic2011_f3;all_embeddings;CNN;27;-1;auc;0.8148148148148148
+bpic2011_f3;all_embeddings;CNN;28;-1;auc;0.8202247191011236
+bpic2011_f3;all_embeddings;CNN;29;-1;auc;0.8227272727272728
+bpic2011_f3;all_embeddings;CNN;30;-1;auc;0.7840909090909091
+bpic2011_f3;all_embeddings;CNN;31;-1;auc;0.7999999999999999
+bpic2011_f3;all_embeddings;CNN;-1;auc;0.910890723499972
+event columns:;13;  case columns:;6;  control columns:;1
+parsimony event;1.0;parsimony case;1.0;parsimony control;1.0
+FC event;0.02853308953639259;FC case;0.03258817978058275;FC control;0.03257343399787661
+monotonicity;0.7704240366807488
