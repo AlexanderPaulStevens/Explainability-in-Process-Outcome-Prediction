@@ -1,0 +1,7 @@
+iter;dataset;cls;method;param;value;score
+1;bpic2012_accepted;RF;all_index;max_features;0.949155571278661;0.19975370170130802
+1;bpic2012_accepted;RF;all_index;0
+1;bpic2012_accepted;RF;all_index;max_features;0.949155571278661;0.39979880071847146
+1;bpic2012_accepted;RF;all_index;0
+1;bpic2012_accepted;RF;all_index;max_features;0.949155571278661;0.592807644650096
+1;bpic2012_accepted;RF;all_index;0
