@@ -1,6 +1,8 @@
 # Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction
 Complementary code to reproduce the work of "Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction"
 
+![Guidelines for XAI drawio-1](https://user-images.githubusercontent.com/75080516/183253235-2a255ae8-7be9-4552-a80b-cc655335979e.png)
+This figure 
 An overview of the files and folders:
 
 ### labeled_logs_csv_processed
