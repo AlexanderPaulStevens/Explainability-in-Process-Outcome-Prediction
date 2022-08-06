@@ -5,7 +5,7 @@ An overview of the files:
 
 ### Preprocessing files 
 
-The preprocessing and hyperoptimalisation are derivative work based on the code provided by https://github.com/irhete/predictive-monitoring-benchmark. 
+The preprocessing and hyperoptimalisation are derivative work based on the code provided by [Outcome-Oriented Predictive Process Monitoring: Review and Benchmark](https://github.com/irhete/predictive-monitoring-benchmark.)
 We would like to thank the authors for the high quality code that allowed to fastly reproduce the provided work.
 - dataset_confs
 - DatasetManager
