@@ -21,7 +21,7 @@ We would like to thank the authors for the high quality code that allowed to fas
 
 Next, the event log specifications are obtained with the following file:
 
--data_information.py
+- data_information.py
 
 This .py file allows you to obtain a csv that contains all the event log specifications.
 
