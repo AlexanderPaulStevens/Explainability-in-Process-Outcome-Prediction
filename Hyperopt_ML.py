@@ -17,17 +17,18 @@ from sklearn.pipeline import FeatureUnion
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.preprocessing import StandardScaler
+import xgboost as xgb
+from sklearn.preprocessing import MinMaxScaler
 import pickle
 import hyperopt
 from hyperopt import hp, Trials, fmin, tpe, STATUS_OK
 from hyperopt.pyll.base import scope
-#from AIX360.aix360.algorithms.rbm import LogisticRuleRegression
-#from AIX360.aix360.algorithms.rbm import FeatureBinarizerFromTrees
-#import xgboost as xgb
+#aix360 packages
+from aix360.algorithms.rbm import LogisticRuleRegression
+from aix360.algorithms.rbm import FeatureBinarizerFromTrees
 
 #parameters
-params_dir = './params_dir_ML_GLRM'
+params_dir = './params_dir_ML'
 column_selection = 'all'
 train_ratio = 0.8
 n_splits = 3
@@ -40,15 +41,14 @@ if not os.path.exists(os.path.join(params_dir)):
 
 encoding_dict = {
     "agg": ["static", "agg"],
-  #  "index": ["static", "index"]
 }
 encoding = []
 for k, v in encoding_dict.items():
     encoding.append(k)
 dataset_ref_to_datasets = {
-   # "bpic2011": ["bpic2011_f%s"%formula for formula in range(1,5)],
-   # "bpic2015": ["bpic2015_%s_f2"%(municipality) for municipality in range(1,6)],
-   # "sepsis_cases": ["sepsis_cases_1", "sepsis_cases_2", "sepsis_cases_4"],
+    "bpic2011": ["bpic2011_f%s"%formula for formula in range(1,5)],
+    "bpic2015": ["bpic2015_%s_f2"%(municipality) for municipality in range(1,6)],
+    "sepsis_cases": ["sepsis_cases_1", "sepsis_cases_2", "sepsis_cases_4"],
     "production": ["production"],
     #"traffic_fines": ["traffic_fines_%s"%formula for formula in range(1,2)],
     #"bpic2012": ["bpic2012_accepted","bpic2012_cancelled","bpic2012_declined"],
@@ -62,8 +62,8 @@ for k, v in dataset_ref_to_datasets.items():
 
 #classifiers dictionary
 classifier_ref_to_classifiers = {
-    "LRmodels": ["LR"],
-    #"MLmodels": ["RF","XGB"],
+    "LRmodels": ['GLRM'],
+   # "MLmodels": ["RF","XGB"],
 }
 classifiers = []
 for k, v in classifier_ref_to_classifiers.items():
@@ -82,10 +82,6 @@ def create_and_evaluate_model(args):
             if cv_train_iter != cv_iter:
                 dt_train_prefixes = pd.concat([dt_train_prefixes, dt_prefixes[cv_train_iter]], axis=0)
         
-        #remove training rows with negative values (should be a mistake)
-        #dt_train_prefixes = dt_train_prefixes[dt_train_prefixes.select_dtypes(include=[np.number]).ge(0).all(1)]
-
-
         preds_all = []
         test_y_all = []
         test_y = dataset_manager.get_label_numeric(dt_test_prefixes)
@@ -97,13 +93,11 @@ def create_and_evaluate_model(args):
         feature_combiner.fit(dt_train_prefixes, train_y)
         #transform train dataset
         
-        
         dt_train_named= feature_combiner.transform(dt_train_prefixes)
         dt_train_named = pd.DataFrame(dt_train_named)
         names= feature_combiner.get_feature_names()
         dt_train_named.columns = names
          
-        
         #transform test dataset
         dt_test_named = feature_combiner.transform(dt_test_prefixes)
         dt_test_named = pd.DataFrame(dt_test_named)
@@ -112,7 +106,7 @@ def create_and_evaluate_model(args):
         
         if cls_method == "LR":
             cls = LogisticRegression(C=2**args['C'],solver='saga', penalty="l1", n_jobs=-1, random_state=random_state)
-            pipe = make_pipeline(StandardScaler(), cls)
+            pipe = make_pipeline(MinMaxScaler(feature_range=[0,1]), cls)
             pipe.fit(dt_train_named, train_y)  # apply scaling on training data
             preds_pos_label_idx = np.where(cls.classes_ == 1)[0][0]
             pred = pipe.predict_proba(dt_test_named)[:,preds_pos_label_idx]
@@ -169,7 +163,7 @@ def create_and_evaluate_model(args):
                     else:
                         #print length of test and training data of the leaf node
                         test_y_all.extend(data_test_y)
-                        scaler = StandardScaler()
+                        scaler = MinMaxScaler(feature_range=[0,1])
                         data_train_x= scaler.fit_transform(data_train_x)
                         data_test_x= scaler.transform(data_test_x)
                         cls = LogisticRegression(C=2**args['C'],solver='saga', penalty="l1", n_jobs=-1, random_state=random_state)
@@ -185,7 +179,7 @@ def create_and_evaluate_model(args):
             dt_train_named = fb.fit_transform(dt_train_named, train_y)
             dt_test_named = fb.transform(dt_test_named)
             cls = LogisticRuleRegression(lambda0=args['lambda0'], lambda1=args['lambda1'],
-                                         iterMax=100)
+                                         iterMax=1000)
             # Train, print, and evaluate model
             cls.fit(dt_train_named, pd.Series(train_y))
             pred = cls.predict_proba(dt_test_named)
@@ -229,13 +223,7 @@ for dataset_name in datasets:
     # read the data
     dataset_manager = DatasetManager(dataset_name)
     data = dataset_manager.read_dataset()
-    data['timesincemidnight'] = data['timesincemidnight']/60
-    data['timesincemidnight'] = round(data['timesincemidnight'],0)
-    data['timesincecasestart'] = data['timesincecasestart']/60
-    data['timesincecasestart'] = round(data['timesincecasestart'],0)
-    data['timesincelastevent'] = data['timesincelastevent']/60
-    data['timesincelastevent'] = round(data['timesincelastevent'],0)
-     
+
     for cls_method in classifiers:
         for cls_encoding in encoding:
             print('Dataset:', dataset_name)
@@ -288,8 +276,8 @@ for dataset_name in datasets:
                  'min_child_weight': scope.int(hp.quniform('min_child_weight', 1, 6, 1))}
       
             if cls_method =='GLRM':
-                space = {'lambda0': hp.uniform("lambda0",0.000001, 0.00001),
-                 'lambda1': hp.uniform("lambda1", 0.000001,0.00001),
+                space = {'lambda0': hp.quniform("lambda0",0.000001, 0.00001),
+                 'lambda1': hp.quniform("lambda1", 0.000001,0.00001),
                  }
     
             if cls_method == "RF":
