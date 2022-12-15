@@ -1,1 +1,0 @@
-{'batch_size': 240, 'dropout_rate': 0.1618400389605664, 'learning_rate': 0.008463666826913902, 'lstm_size': 232, 'optimizer': 'RMSprop'}

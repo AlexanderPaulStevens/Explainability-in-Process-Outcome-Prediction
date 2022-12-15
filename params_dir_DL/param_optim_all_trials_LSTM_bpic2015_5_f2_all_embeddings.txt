@@ -1,1 +1,0 @@
-{'batch_size': 112, 'dropout_rate': 0.19976397355464645, 'learning_rate': 0.008591085615000875, 'lstm_size': 176, 'optimizer': 'Adam'}
