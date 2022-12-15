@@ -1,7 +1,7 @@
 # Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction
 Complementary code to reproduce the work of "Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction"
 
-![Guidelines for accurate and eXplainable Models for process Outcome Prediction](https://github.com/AlexanderPaulStevens/Evaluation-Metrics-and-Guidelines-for-Process-Outcome-Prediction/files/10238491/Guidelines.for.XAI.pdf)
+![Guidelines for accurate and eXplainable Models for process Outcome Prediction](https://user-images.githubusercontent.com/75080516/207905213-524fee98-da13-4bdc-b36e-34ccf3d40200.png)
 
 _This figure contains the guideline to obtain eXplainable Models for Outcome Prediction (X-MOP)_
 An overview of the files and folders:
