@@ -1,4 +1,4 @@
-# Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction
+# Explainability in Process Outcome Prediction: Guidelines to Obtain Interpretable and Faithful Models
 Complementary code to reproduce the work of "Explainable Predictive Process Monitoring: Evaluation Metrics and Guidelines for Process Outcome Prediction"
 
 ![Guidelines for accurate and eXplainable Models for process Outcome Prediction](https://user-images.githubusercontent.com/75080516/207905213-524fee98-da13-4bdc-b36e-34ccf3d40200.png)
