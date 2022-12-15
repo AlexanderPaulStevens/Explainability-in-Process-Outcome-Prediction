@@ -6,6 +6,18 @@ Complementary code to reproduce the work of "Explainable Predictive Process Moni
 _This figure contains the guideline to obtain eXplainable Models for Outcome Prediction (X-MOP)_
 An overview of the files and folders:
 
+### figures
+The folder figures contain the high-resolution figures (PDF format) that have been used in the paper.
+
+### metrics
+The metrics introduced in this paper are created in a seperate class (and .py) file. Hopefully, this will support reproducibility. The metrics are intended to work with all the benchmark models as mentioned in the paper. If there are any problems or questions, feel free to contact me (corresponding author and email related to the experiment of this study can be found on this [site](https://alexanderpaulstevens.github.io/).
+
+### models
+This folder contains only one file (LLM.py), where LLM model (originally written in R) is translated to Python. Note that there are some different design choices made compared to the original paper (link: [here](https://www.sciencedirect.com/science/article/abs/pii/S0377221718301243)).
+
+### figures
+The folder figures contain the high-resolution figures (PDF format) that have been used in the paper.
+
 ### labeled_logs_csv_processed
 
 This folder contains cleaned and preprocessed event logs that are made available by this GitHub repository: [Benchmark for outcome-oriented predictive process monitoring](https://github.com/irhete/predictive-monitoring-benchmark). They provide 22 event logs, and we have selected 13 of them. The authors of this work an GitHub repository provide a [Google drive link](https://drive.google.com/open?id=154hcH-HGThlcZJW5zBvCJMZvjOQDsnPR) to download these event logs.
@@ -31,5 +43,3 @@ We would like to thank the authors for the high quality code that allowed to fas
 - experiment_DL (GC).ipynb
 
 We acknowledgde the work provided by [Building accurate and interpretable models for predictive process analytics](https://github.com/renuka98/interpretable_predictive_processmodel) for their attention-based bidirectional LSTM architecture to create the long short-term neural networks with attention layers visualisations.
-
-Finally, the folder Figures contain the high-resolution figures (PDF format) that have been used in the paper.
