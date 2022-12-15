@@ -6,14 +6,7 @@ Complementary code to reproduce the work of "Explainable Predictive Process Moni
 _This figure contains the guideline to obtain eXplainable Models for Outcome Prediction (X-MOP)_
 An overview of the files and folders:
 
-### figures
-The folder figures contain the high-resolution figures (PDF format) that have been used in the paper.
-
-### metrics
-The metrics introduced in this paper are created in a seperate class (and .py) file. Hopefully, this will support reproducibility. The metrics are intended to work with all the benchmark models as mentioned in the paper. If there are any problems or questions, feel free to contact me (corresponding author and email related to the experiment of this study can be found on this [site](https://alexanderpaulstevens.github.io/).
-
-### models
-This folder contains only one file (LLM.py), where LLM model (originally written in R) is translated to Python. Note that there are some different design choices made compared to the original paper (link: [here](https://www.sciencedirect.com/science/article/abs/pii/S0377221718301243)).
+##<sub>The different folders</sub>
 
 ### figures
 The folder figures contain the high-resolution figures (PDF format) that have been used in the paper.
@@ -21,6 +14,23 @@ The folder figures contain the high-resolution figures (PDF format) that have be
 ### labeled_logs_csv_processed
 
 This folder contains cleaned and preprocessed event logs that are made available by this GitHub repository: [Benchmark for outcome-oriented predictive process monitoring](https://github.com/irhete/predictive-monitoring-benchmark). They provide 22 event logs, and we have selected 13 of them. The authors of this work an GitHub repository provide a [Google drive link](https://drive.google.com/open?id=154hcH-HGThlcZJW5zBvCJMZvjOQDsnPR) to download these event logs.
+
+### metrics
+The metrics introduced in this paper are created in a seperate class (and .py) file. Hopefully, this will support reproducibility. The metrics are intended to work with all the benchmark models as mentioned in the paper. If there are any problems or questions, feel free to contact me (corresponding author and email related to the experiment of this study can be found on this [site](https://alexanderpaulstevens.github.io/).
+
+### models
+This folder contains only one file (LLM.py), where LLM model (originally written in R) is translated to Python. Note that there are some different design choices made compared to the original paper (link: [here](https://www.sciencedirect.com/science/article/abs/pii/S0377221718301243)).
+
+### params_dir
+The different hyperparameter files (in .pickle and .csv)
+
+### results_dir
+The different result files (in .csv) for the ML models (*results_dir_ML*) and the DL models ($results_dir_DL*).
+
+### transformers
+- contains the files to perform the aggregation sequence encoding (code stems from [Teinemaa et. al. (2019)](https://dl.acm.org/doi/abs/10.1145/3301300?casa_token=xiS8Iicds4sAAAAA:M-Wh_zwWGlsdj3QyD2GiK3uS66R484zPvbZJcsWke-UPkWMH3VYJKE0wx035cOlRn0-ux3J-hArmSCo).
+
+##<sub>The different .py files</sub>
 
 ### Preprocessing files 
 
