@@ -1,0 +1,47 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_1_f2;all_agg;LLM;1;-1;auc;0.7366452991452991
+bpic2015_1_f2;all_agg;LLM;2;-1;auc;0.7219551282051282
+bpic2015_1_f2;all_agg;LLM;3;-1;auc;0.7243589743589743
+bpic2015_1_f2;all_agg;LLM;4;-1;auc;0.7087104072398189
+bpic2015_1_f2;all_agg;LLM;5;-1;auc;0.7166289592760181
+bpic2015_1_f2;all_agg;LLM;6;-1;auc;0.7186085972850679
+bpic2015_1_f2;all_agg;LLM;7;-1;auc;0.7055995475113122
+bpic2015_1_f2;all_agg;LLM;8;-1;auc;0.7169117647058824
+bpic2015_1_f2;all_agg;LLM;9;-1;auc;0.7191742081447964
+bpic2015_1_f2;all_agg;LLM;10;-1;auc;0.6981724728726442
+bpic2015_1_f2;all_agg;LLM;11;-1;auc;0.6911764705882353
+bpic2015_1_f2;all_agg;LLM;12;-1;auc;0.7267647058823529
+bpic2015_1_f2;all_agg;LLM;13;-1;auc;0.7596553773024362
+bpic2015_1_f2;all_agg;LLM;14;-1;auc;0.8169586983729662
+bpic2015_1_f2;all_agg;LLM;15;-1;auc;0.9171994884910486
+bpic2015_1_f2;all_agg;LLM;16;-1;auc;0.9638009049773756
+bpic2015_1_f2;all_agg;LLM;17;-1;auc;0.9511958629605689
+bpic2015_1_f2;all_agg;LLM;18;-1;auc;0.9643093192333113
+bpic2015_1_f2;all_agg;LLM;19;-1;auc;0.9759358288770054
+bpic2015_1_f2;all_agg;LLM;20;-1;auc;0.9902473005921282
+bpic2015_1_f2;all_agg;LLM;21;-1;auc;0.9954719609892023
+bpic2015_1_f2;all_agg;LLM;22;-1;auc;0.9951236502960641
+bpic2015_1_f2;all_agg;LLM;23;-1;auc;0.9954719609892023
+bpic2015_1_f2;all_agg;LLM;24;-1;auc;0.9965168930686171
+bpic2015_1_f2;all_agg;LLM;25;-1;auc;0.9965168930686171
+bpic2015_1_f2;all_agg;LLM;26;-1;auc;0.9981831395348837
+bpic2015_1_f2;all_agg;LLM;27;-1;auc;0.9981398809523809
+bpic2015_1_f2;all_agg;LLM;28;-1;auc;0.9981174698795181
+bpic2015_1_f2;all_agg;LLM;29;-1;auc;0.9981174698795181
+bpic2015_1_f2;all_agg;LLM;30;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;31;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;32;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;33;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;34;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;35;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;36;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;37;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;38;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;39;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;40;-1;auc;1.0
+bpic2015_1_f2;all_agg;LLM;-1;auc;0.9366919316120165
+event columns:;88;  case columns:;35;  control columns:;266
+parsimony event;49.5;parsimony case;24.5;parsimony control;149.5
+FC event;0.7998359310910582;FC case;4.368334700574241;FC control;98.74897456931912
+monotonicity;0.37176195145990926
+LOD;3.7416573867739413

@@ -1,0 +1,43 @@
+dataset;method;cls;nr_events;metric;score
+bpic2011_f1;all_agg;LR;1;-1;auc;0.8682445455246318
+bpic2011_f1;all_agg;LR;2;-1;auc;0.8895929035323935
+bpic2011_f1;all_agg;LR;3;-1;auc;0.8882791734545143
+bpic2011_f1;all_agg;LR;4;-1;auc;0.8827282530553557
+bpic2011_f1;all_agg;LR;5;-1;auc;0.8790768643906159
+bpic2011_f1;all_agg;LR;6;-1;auc;0.8798252742787486
+bpic2011_f1;all_agg;LR;7;-1;auc;0.8942780968006563
+bpic2011_f1;all_agg;LR;8;-1;auc;0.9338574423480083
+bpic2011_f1;all_agg;LR;9;-1;auc;0.9623280423280424
+bpic2011_f1;all_agg;LR;10;-1;auc;0.9615873015873015
+bpic2011_f1;all_agg;LR;11;-1;auc;0.9704545454545453
+bpic2011_f1;all_agg;LR;12;-1;auc;0.9699134199134198
+bpic2011_f1;all_agg;LR;13;-1;auc;0.9720853858784894
+bpic2011_f1;all_agg;LR;14;-1;auc;0.9744186046511628
+bpic2011_f1;all_agg;LR;15;-1;auc;0.9739756367663344
+bpic2011_f1;all_agg;LR;16;-1;auc;0.9744186046511628
+bpic2011_f1;all_agg;LR;17;-1;auc;0.9743962432915921
+bpic2011_f1;all_agg;LR;18;-1;auc;0.9777504472271914
+bpic2011_f1;all_agg;LR;19;-1;auc;0.9779411764705883
+bpic2011_f1;all_agg;LR;20;-1;auc;0.9794694348327566
+bpic2011_f1;all_agg;LR;21;-1;auc;0.9791764705882353
+bpic2011_f1;all_agg;LR;22;-1;auc;0.9790726817042607
+bpic2011_f1;all_agg;LR;23;-1;auc;0.9777432712215322
+bpic2011_f1;all_agg;LR;24;-1;auc;0.9820759764579989
+bpic2011_f1;all_agg;LR;25;-1;auc;0.9780348759222
+bpic2011_f1;all_agg;LR;26;-1;auc;0.9859523809523809
+bpic2011_f1;all_agg;LR;27;-1;auc;0.9821354383049439
+bpic2011_f1;all_agg;LR;28;-1;auc;0.9796747967479675
+bpic2011_f1;all_agg;LR;29;-1;auc;0.9868827160493827
+bpic2011_f1;all_agg;LR;30;-1;auc;0.9854096520763187
+bpic2011_f1;all_agg;LR;31;-1;auc;0.98375
+bpic2011_f1;all_agg;LR;32;-1;auc;0.9797979797979798
+bpic2011_f1;all_agg;LR;33;-1;auc;0.9783549783549783
+bpic2011_f1;all_agg;LR;34;-1;auc;0.9718045112781954
+bpic2011_f1;all_agg;LR;35;-1;auc;0.9842105263157894
+bpic2011_f1;all_agg;LR;36;-1;auc;0.9837837837837837
+bpic2011_f1;all_agg;LR;-1;auc;0.9587563902012354
+event columns:;136;  case columns:;730;  control columns:;175
+parsimony event;43;parsimony case;377;parsimony control;59
+FC event;48.37833248429275;FC case;0.016980811682798438;FC control;0.0
+monotonicity;0.7759168733525802
+LOD;12.083045973594572

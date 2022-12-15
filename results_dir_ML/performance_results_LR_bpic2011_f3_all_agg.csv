@@ -1,0 +1,38 @@
+dataset;method;cls;nr_events;metric;score
+bpic2011_f3;all_agg;LR;1;-1;auc;0.9388793103448276
+bpic2011_f3;all_agg;LR;2;-1;auc;0.9519169474546945
+bpic2011_f3;all_agg;LR;3;-1;auc;0.9449775418538179
+bpic2011_f3;all_agg;LR;4;-1;auc;0.9380916923731518
+bpic2011_f3;all_agg;LR;5;-1;auc;0.9387432188065099
+bpic2011_f3;all_agg;LR;6;-1;auc;0.933212778782399
+bpic2011_f3;all_agg;LR;7;-1;auc;0.9334225900681596
+bpic2011_f3;all_agg;LR;8;-1;auc;0.9434766261436269
+bpic2011_f3;all_agg;LR;9;-1;auc;0.973680912395037
+bpic2011_f3;all_agg;LR;10;-1;auc;0.9953628274219828
+bpic2011_f3;all_agg;LR;11;-1;auc;0.9982099475770362
+bpic2011_f3;all_agg;LR;12;-1;auc;0.9985935302390999
+bpic2011_f3;all_agg;LR;13;-1;auc;0.9988492520138089
+bpic2011_f3;all_agg;LR;14;-1;auc;0.9994780112227587
+bpic2011_f3;all_agg;LR;15;-1;auc;0.9996085084170689
+bpic2011_f3;all_agg;LR;16;-1;auc;0.999735659529474
+bpic2011_f3;all_agg;LR;17;-1;auc;0.9994713190589479
+bpic2011_f3;all_agg;LR;18;-1;auc;0.999603489294211
+bpic2011_f3;all_agg;LR;19;-1;auc;0.9997258771929824
+bpic2011_f3;all_agg;LR;20;-1;auc;0.9995777027027027
+bpic2011_f3;all_agg;LR;21;-1;auc;0.9995471014492754
+bpic2011_f3;all_agg;LR;22;-1;auc;0.9995215311004785
+bpic2011_f3;all_agg;LR;23;-1;auc;0.9990846681922197
+bpic2011_f3;all_agg;LR;24;-1;auc;0.9967266775777415
+bpic2011_f3;all_agg;LR;25;-1;auc;0.9933510638297872
+bpic2011_f3;all_agg;LR;26;-1;auc;0.993920972644377
+bpic2011_f3;all_agg;LR;27;-1;auc;0.9944444444444445
+bpic2011_f3;all_agg;LR;28;-1;auc;0.9962546816479401
+bpic2011_f3;all_agg;LR;29;-1;auc;0.9977272727272727
+bpic2011_f3;all_agg;LR;30;-1;auc;0.9971590909090909
+bpic2011_f3;all_agg;LR;31;-1;auc;0.9941176470588236
+bpic2011_f3;all_agg;LR;-1;auc;0.9870951399097105
+event columns:;132;  case columns:;670;  control columns:;166
+parsimony event;9;parsimony case;109;parsimony control;27
+FC event;77.88225674570728;FC case;4.762878168438267;FC control;8.83074407195421
+monotonicity;0.30969471389554304
+LOD;2.8284271247461903

@@ -1,0 +1,47 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_4_f2;all_agg;XGB;1;-1;auc;0.667986798679868
+bpic2015_4_f2;all_agg;XGB;2;-1;auc;0.6852899575671854
+bpic2015_4_f2;all_agg;XGB;3;-1;auc;0.6838755304101838
+bpic2015_4_f2;all_agg;XGB;4;-1;auc;0.6937765205091938
+bpic2015_4_f2;all_agg;XGB;5;-1;auc;0.6881188118811881
+bpic2015_4_f2;all_agg;XGB;6;-1;auc;0.693069306930693
+bpic2015_4_f2;all_agg;XGB;7;-1;auc;0.6640735502121641
+bpic2015_4_f2;all_agg;XGB;8;-1;auc;0.6768033946251768
+bpic2015_4_f2;all_agg;XGB;9;-1;auc;0.6654879773691654
+bpic2015_4_f2;all_agg;XGB;10;-1;auc;0.6649999999999999
+bpic2015_4_f2;all_agg;XGB;11;-1;auc;0.675
+bpic2015_4_f2;all_agg;XGB;12;-1;auc;0.6842857142857143
+bpic2015_4_f2;all_agg;XGB;13;-1;auc;0.7014285714285714
+bpic2015_4_f2;all_agg;XGB;14;-1;auc;0.7293233082706767
+bpic2015_4_f2;all_agg;XGB;15;-1;auc;0.8406015037593985
+bpic2015_4_f2;all_agg;XGB;16;-1;auc;0.9164133738601823
+bpic2015_4_f2;all_agg;XGB;17;-1;auc;0.9582066869300913
+bpic2015_4_f2;all_agg;XGB;18;-1;auc;0.985248447204969
+bpic2015_4_f2;all_agg;XGB;19;-1;auc;0.999223602484472
+bpic2015_4_f2;all_agg;XGB;20;-1;auc;0.9991974317817014
+bpic2015_4_f2;all_agg;XGB;21;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;22;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;23;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;24;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;25;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;26;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;27;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;28;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;29;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;30;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;31;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;32;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;33;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;34;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;35;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;36;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;37;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;38;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;39;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;40;-1;auc;1.0
+bpic2015_4_f2;all_agg;XGB;-1;auc;0.9239317399963787
+event columns:;67;  case columns:;23;  control columns:;261
+parsimony event;56;parsimony case;14;parsimony control;41
+FC event;24.634760705289676;FC case;9.924433249370278;FC control;85.66750629722922
+monotonicity;0.18728709046796674
+LOD;1.4142135623730951

@@ -1,0 +1,47 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_3_f2;all_agg;LLM;1;-1;auc;0.5947648691217281
+bpic2015_3_f2;all_agg;LLM;2;-1;auc;0.6093152328808221
+bpic2015_3_f2;all_agg;LLM;3;-1;auc;0.6173404335108378
+bpic2015_3_f2;all_agg;LLM;4;-1;auc;0.6286657166429162
+bpic2015_3_f2;all_agg;LLM;5;-1;auc;0.6351454240901477
+bpic2015_3_f2;all_agg;LLM;6;-1;auc;0.6303948576675851
+bpic2015_3_f2;all_agg;LLM;7;-1;auc;0.6305183817874173
+bpic2015_3_f2;all_agg;LLM;8;-1;auc;0.6463869463869464
+bpic2015_3_f2;all_agg;LLM;9;-1;auc;0.711111111111111
+bpic2015_3_f2;all_agg;LLM;10;-1;auc;0.7529678225554514
+bpic2015_3_f2;all_agg;LLM;11;-1;auc;0.754878629224179
+bpic2015_3_f2;all_agg;LLM;12;-1;auc;0.7966047913691894
+bpic2015_3_f2;all_agg;LLM;13;-1;auc;0.8137394891321592
+bpic2015_3_f2;all_agg;LLM;14;-1;auc;0.9877192982456141
+bpic2015_3_f2;all_agg;LLM;15;-1;auc;0.9914221580888247
+bpic2015_3_f2;all_agg;LLM;16;-1;auc;0.9924643257976592
+bpic2015_3_f2;all_agg;LLM;17;-1;auc;0.9977553310886644
+bpic2015_3_f2;all_agg;LLM;18;-1;auc;0.9958313291646625
+bpic2015_3_f2;all_agg;LLM;19;-1;auc;0.9989578322911655
+bpic2015_3_f2;all_agg;LLM;20;-1;auc;0.999438832772166
+bpic2015_3_f2;all_agg;LLM;21;-1;auc;0.9996776273372019
+bpic2015_3_f2;all_agg;LLM;22;-1;auc;0.9996776273372019
+bpic2015_3_f2;all_agg;LLM;23;-1;auc;0.9998379517096094
+bpic2015_3_f2;all_agg;LLM;24;-1;auc;0.9997542997542997
+bpic2015_3_f2;all_agg;LLM;25;-1;auc;0.9997491638795986
+bpic2015_3_f2;all_agg;LLM;26;-1;auc;0.9996655518394649
+bpic2015_3_f2;all_agg;LLM;27;-1;auc;0.9997477931904162
+bpic2015_3_f2;all_agg;LLM;28;-1;auc;0.9998292349726776
+bpic2015_3_f2;all_agg;LLM;29;-1;auc;0.9998265244166883
+bpic2015_3_f2;all_agg;LLM;30;-1;auc;0.9999127856270713
+bpic2015_3_f2;all_agg;LLM;31;-1;auc;0.9999123037797071
+bpic2015_3_f2;all_agg;LLM;32;-1;auc;0.9999118165784833
+bpic2015_3_f2;all_agg;LLM;33;-1;auc;0.9999074074074075
+bpic2015_3_f2;all_agg;LLM;34;-1;auc;0.9999074074074075
+bpic2015_3_f2;all_agg;LLM;35;-1;auc;0.9998148148148148
+bpic2015_3_f2;all_agg;LLM;36;-1;auc;0.9999074074074075
+bpic2015_3_f2;all_agg;LLM;37;-1;auc;0.9999025341130605
+bpic2015_3_f2;all_agg;LLM;38;-1;auc;1.0
+bpic2015_3_f2;all_agg;LLM;39;-1;auc;1.0
+bpic2015_3_f2;all_agg;LLM;40;-1;auc;1.0
+bpic2015_3_f2;all_agg;LLM;-1;auc;0.9592259530025349
+event columns:;87;  case columns:;34;  control columns:;314
+parsimony event;85.0;parsimony case;33.5;parsimony control;283.0
+FC event;41.79862563489692;FC case;2.191016830992929;FC control;57.10586594960662
+monotonicity;0.5726968403021166
+LOD;5.0990195135927845
