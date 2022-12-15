@@ -1,0 +1,36 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_1;all_embeddings;LSTM;1;-1;auc;0.5575539568345323
+sepsis_cases_1;all_embeddings;LSTM;2;-1;auc;0.5715427657873701
+sepsis_cases_1;all_embeddings;LSTM;3;-1;auc;0.6119104716227018
+sepsis_cases_1;all_embeddings;LSTM;4;-1;auc;0.6131095123900879
+sepsis_cases_1;all_embeddings;LSTM;5;-1;auc;0.6035171862509993
+sepsis_cases_1;all_embeddings;LSTM;6;-1;auc;0.5895283772981614
+sepsis_cases_1;all_embeddings;LSTM;7;-1;auc;0.583533173461231
+sepsis_cases_1;all_embeddings;LSTM;8;-1;auc;0.5931254996003197
+sepsis_cases_1;all_embeddings;LSTM;9;-1;auc;0.6094771241830066
+sepsis_cases_1;all_embeddings;LSTM;10;-1;auc;0.6140132669983416
+sepsis_cases_1;all_embeddings;LSTM;11;-1;auc;0.5814999999999999
+sepsis_cases_1;all_embeddings;LSTM;12;-1;auc;0.5757763975155279
+sepsis_cases_1;all_embeddings;LSTM;13;-1;auc;0.5161616161616162
+sepsis_cases_1;all_embeddings;LSTM;14;-1;auc;0.5625
+sepsis_cases_1;all_embeddings;LSTM;15;-1;auc;0.5410714285714286
+sepsis_cases_1;all_embeddings;LSTM;16;-1;auc;0.4166666666666667
+sepsis_cases_1;all_embeddings;LSTM;17;-1;auc;0.4318181818181818
+sepsis_cases_1;all_embeddings;LSTM;18;-1;auc;0.3888888888888889
+sepsis_cases_1;all_embeddings;LSTM;19;-1;auc;0.36764705882352944
+sepsis_cases_1;all_embeddings;LSTM;20;-1;auc;0.3833333333333333
+sepsis_cases_1;all_embeddings;LSTM;21;-1;auc;0.3653846153846154
+sepsis_cases_1;all_embeddings;LSTM;22;-1;auc;0.38636363636363635
+sepsis_cases_1;all_embeddings;LSTM;23;-1;auc;0.368421052631579
+sepsis_cases_1;all_embeddings;LSTM;24;-1;auc;0.38235294117647056
+sepsis_cases_1;all_embeddings;LSTM;25;-1;auc;0.3666666666666667
+sepsis_cases_1;all_embeddings;LSTM;26;-1;auc;0.35714285714285715
+sepsis_cases_1;all_embeddings;LSTM;27;-1;auc;0.35714285714285715
+sepsis_cases_1;all_embeddings;LSTM;28;-1;auc;0.3076923076923077
+sepsis_cases_1;all_embeddings;LSTM;29;-1;auc;0.3181818181818182
+sepsis_cases_1;all_embeddings;LSTM;-1;auc;0.562707377748845
+event columns:;12;  case columns:;24;  control columns:;1
+parsimony event;12;parsimony case;24;parsimony control;1
+FC event;0.014212548015364916;FC case;0.014767392232180964;FC control;0.015535638070849338
+monotonicity;0.5136420258132478
+LOD;1.4142135623730951

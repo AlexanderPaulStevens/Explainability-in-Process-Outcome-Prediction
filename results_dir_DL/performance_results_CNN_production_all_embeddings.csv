@@ -1,0 +1,24 @@
+dataset;method;cls;nr_events;metric;score
+production;all_embeddings;CNN;1;-1;auc;0.5547619047619048
+production;all_embeddings;CNN;2;-1;auc;0.5767195767195767
+production;all_embeddings;CNN;3;-1;auc;0.6421404682274248
+production;all_embeddings;CNN;4;-1;auc;0.635
+production;all_embeddings;CNN;5;-1;auc;0.6799999999999999
+production;all_embeddings;CNN;6;-1;auc;0.6964285714285714
+production;all_embeddings;CNN;7;-1;auc;0.6964285714285714
+production;all_embeddings;CNN;8;-1;auc;0.6688311688311688
+production;all_embeddings;CNN;9;-1;auc;0.775
+production;all_embeddings;CNN;10;-1;auc;0.8611111111111112
+production;all_embeddings;CNN;11;-1;auc;0.7916666666666666
+production;all_embeddings;CNN;12;-1;auc;1.0
+production;all_embeddings;CNN;13;-1;auc;1.0
+production;all_embeddings;CNN;14;-1;auc;1.0
+production;all_embeddings;CNN;15;-1;auc;1.0
+production;all_embeddings;CNN;16;-1;auc;1.0
+production;all_embeddings;CNN;17;-1;auc;nan
+production;all_embeddings;CNN;-1;auc;0.694632290786137
+event columns:;14;  case columns:;3;  control columns:;1
+parsimony event;14;parsimony case;3;parsimony control;1
+FC event;0.09375;FC case;0.09782608695652174;FC control;0.08763586956521739
+monotonicity;0.3404924831536007
+LOD;1.0

@@ -1,0 +1,36 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_1;all_embeddings;CNN;1;-1;auc;0.5323741007194245
+sepsis_cases_1;all_embeddings;CNN;2;-1;auc;0.5523581135091926
+sepsis_cases_1;all_embeddings;CNN;3;-1;auc;0.5347721822541966
+sepsis_cases_1;all_embeddings;CNN;4;-1;auc;0.5383693045563549
+sepsis_cases_1;all_embeddings;CNN;5;-1;auc;0.5447641886490807
+sepsis_cases_1;all_embeddings;CNN;6;-1;auc;0.5391686650679457
+sepsis_cases_1;all_embeddings;CNN;7;-1;auc;0.539568345323741
+sepsis_cases_1;all_embeddings;CNN;8;-1;auc;0.5451638689048761
+sepsis_cases_1;all_embeddings;CNN;9;-1;auc;0.5363562091503268
+sepsis_cases_1;all_embeddings;CNN;10;-1;auc;0.5364842454394693
+sepsis_cases_1;all_embeddings;CNN;11;-1;auc;0.501
+sepsis_cases_1;all_embeddings;CNN;12;-1;auc;0.47701863354037266
+sepsis_cases_1;all_embeddings;CNN;13;-1;auc;0.45656565656565656
+sepsis_cases_1;all_embeddings;CNN;14;-1;auc;0.47560975609756095
+sepsis_cases_1;all_embeddings;CNN;15;-1;auc;0.46785714285714286
+sepsis_cases_1;all_embeddings;CNN;16;-1;auc;0.35648148148148145
+sepsis_cases_1;all_embeddings;CNN;17;-1;auc;0.40454545454545454
+sepsis_cases_1;all_embeddings;CNN;18;-1;auc;0.3194444444444444
+sepsis_cases_1;all_embeddings;CNN;19;-1;auc;0.3235294117647059
+sepsis_cases_1;all_embeddings;CNN;20;-1;auc;0.31666666666666665
+sepsis_cases_1;all_embeddings;CNN;21;-1;auc;0.28846153846153844
+sepsis_cases_1;all_embeddings;CNN;22;-1;auc;0.2727272727272727
+sepsis_cases_1;all_embeddings;CNN;23;-1;auc;0.26315789473684215
+sepsis_cases_1;all_embeddings;CNN;24;-1;auc;0.2647058823529412
+sepsis_cases_1;all_embeddings;CNN;25;-1;auc;0.23333333333333334
+sepsis_cases_1;all_embeddings;CNN;26;-1;auc;0.26785714285714285
+sepsis_cases_1;all_embeddings;CNN;27;-1;auc;0.26785714285714285
+sepsis_cases_1;all_embeddings;CNN;28;-1;auc;0.28846153846153844
+sepsis_cases_1;all_embeddings;CNN;29;-1;auc;0.29545454545454547
+sepsis_cases_1;all_embeddings;CNN;-1;auc;0.5045120748237185
+event columns:;12;  case columns:;24;  control columns:;1
+parsimony event;12;parsimony case;24;parsimony control;1
+FC event;0.035083226632522405;FC case;0.06325224071702945;FC control;0.061246265471617586
+monotonicity;-0.32538299733367987
+LOD;9.9498743710662

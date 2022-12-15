@@ -1,0 +1,20 @@
+dataset;method;cls;nr_events;metric;score
+sepsis_cases_2;all_embeddings;LSTM;1;-1;auc;0.8545454545454546
+sepsis_cases_2;all_embeddings;LSTM;2;-1;auc;0.8478114478114479
+sepsis_cases_2;all_embeddings;LSTM;3;-1;auc;0.8478114478114478
+sepsis_cases_2;all_embeddings;LSTM;4;-1;auc;0.8437710437710437
+sepsis_cases_2;all_embeddings;LSTM;5;-1;auc;0.8811287477954144
+sepsis_cases_2;all_embeddings;LSTM;6;-1;auc;0.8781481481481481
+sepsis_cases_2;all_embeddings;LSTM;7;-1;auc;0.8713450292397661
+sepsis_cases_2;all_embeddings;LSTM;8;-1;auc;0.8654970760233918
+sepsis_cases_2;all_embeddings;LSTM;9;-1;auc;0.7545605306799336
+sepsis_cases_2;all_embeddings;LSTM;10;-1;auc;0.6646153846153846
+sepsis_cases_2;all_embeddings;LSTM;11;-1;auc;0.6887052341597796
+sepsis_cases_2;all_embeddings;LSTM;12;-1;auc;0.6878787878787879
+sepsis_cases_2;all_embeddings;LSTM;13;-1;auc;0.6666666666666666
+sepsis_cases_2;all_embeddings;LSTM;-1;auc;0.8468764781936868
+event columns:;12;  case columns:;24;  control columns:;1
+parsimony event;12;parsimony case;24;parsimony control;1
+FC event;0.01187745740498034;FC case;0.01187745740498034;FC control;0.01187745740498034
+monotonicity;0.4580447086261365
+LOD;1.4142135623730951

@@ -1,0 +1,47 @@
+dataset;method;cls;nr_events;metric;score
+bpic2015_3_f2;all_embeddings;CNN;1;-1;auc;0.6095402385059626
+bpic2015_3_f2;all_embeddings;CNN;2;-1;auc;0.6282907072676818
+bpic2015_3_f2;all_embeddings;CNN;3;-1;auc;0.6620415510387759
+bpic2015_3_f2;all_embeddings;CNN;4;-1;auc;0.6699917497937449
+bpic2015_3_f2;all_embeddings;CNN;5;-1;auc;0.6633165829145728
+bpic2015_3_f2;all_embeddings;CNN;6;-1;auc;0.6726354453627181
+bpic2015_3_f2;all_embeddings;CNN;7;-1;auc;0.6568220273804031
+bpic2015_3_f2;all_embeddings;CNN;8;-1;auc;0.6717171717171717
+bpic2015_3_f2;all_embeddings;CNN;9;-1;auc;0.6895104895104897
+bpic2015_3_f2;all_embeddings;CNN;10;-1;auc;0.7159481412058732
+bpic2015_3_f2;all_embeddings;CNN;11;-1;auc;0.7099000475963828
+bpic2015_3_f2;all_embeddings;CNN;12;-1;auc;0.7455576709503412
+bpic2015_3_f2;all_embeddings;CNN;13;-1;auc;0.767967634459781
+bpic2015_3_f2;all_embeddings;CNN;14;-1;auc;0.9099681020733653
+bpic2015_3_f2;all_embeddings;CNN;15;-1;auc;0.9409972743306075
+bpic2015_3_f2;all_embeddings;CNN;16;-1;auc;0.9494949494949495
+bpic2015_3_f2;all_embeddings;CNN;17;-1;auc;0.9628427128427129
+bpic2015_3_f2;all_embeddings;CNN;18;-1;auc;0.9579525412858746
+bpic2015_3_f2;all_embeddings;CNN;19;-1;auc;0.9724226390893057
+bpic2015_3_f2;all_embeddings;CNN;20;-1;auc;0.971580888247555
+bpic2015_3_f2;all_embeddings;CNN;21;-1;auc;0.9875886524822696
+bpic2015_3_f2;all_embeddings;CNN;22;-1;auc;0.9863797549967762
+bpic2015_3_f2;all_embeddings;CNN;23;-1;auc;1.0
+bpic2015_3_f2;all_embeddings;CNN;24;-1;auc;0.9998361998361999
+bpic2015_3_f2;all_embeddings;CNN;25;-1;auc;0.9999163879598661
+bpic2015_3_f2;all_embeddings;CNN;26;-1;auc;0.9979933110367893
+bpic2015_3_f2;all_embeddings;CNN;27;-1;auc;0.9972257250945776
+bpic2015_3_f2;all_embeddings;CNN;28;-1;auc;0.9953039617486339
+bpic2015_3_f2;all_embeddings;CNN;29;-1;auc;0.9960967993754879
+bpic2015_3_f2;all_embeddings;CNN;30;-1;auc;0.9971219256933542
+bpic2015_3_f2;all_embeddings;CNN;31;-1;auc;0.9932473910374462
+bpic2015_3_f2;all_embeddings;CNN;32;-1;auc;0.9882716049382716
+bpic2015_3_f2;all_embeddings;CNN;33;-1;auc;0.9881944444444445
+bpic2015_3_f2;all_embeddings;CNN;34;-1;auc;0.9882870370370369
+bpic2015_3_f2;all_embeddings;CNN;35;-1;auc;0.989212962962963
+bpic2015_3_f2;all_embeddings;CNN;36;-1;auc;0.9889814814814816
+bpic2015_3_f2;all_embeddings;CNN;37;-1;auc;0.9882066276803119
+bpic2015_3_f2;all_embeddings;CNN;38;-1;auc;0.9862576064908722
+bpic2015_3_f2;all_embeddings;CNN;39;-1;auc;0.9778174936921784
+bpic2015_3_f2;all_embeddings;CNN;40;-1;auc;0.9873317914213624
+bpic2015_3_f2;all_embeddings;CNN;-1;auc;0.9371808640300962
+event columns:;11;  case columns:;18;  control columns:;1
+parsimony event;11;parsimony case;1;parsimony control;1
+FC event;0.014888436315834027;FC case;0.009889108536202802;FC control;0.020355828648538295
+monotonicity;-0.2018114671069156
+LOD;3.605551275463989
