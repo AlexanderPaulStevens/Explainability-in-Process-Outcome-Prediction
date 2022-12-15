@@ -6,7 +6,7 @@ Complementary code to reproduce the work of "Explainable Predictive Process Moni
 _This figure contains the guideline to obtain eXplainable Models for Outcome Prediction (X-MOP)_
 An overview of the files and folders:
 
-##<sub>The different folders</sub>
+## <sub>The different folders</sub>
 
 ### figures
 The folder figures contain the high-resolution figures (PDF format) that have been used in the paper.
@@ -28,9 +28,9 @@ The different hyperparameter files (in .pickle and .csv)
 The different result files (in .csv) for the ML models (*results_dir_ML*) and the DL models (*results_dir_DL*).
 
 ### transformers
-- contains the files to perform the aggregation sequence encoding (code stems from [Teinemaa et. al. (2019)](https://dl.acm.org/doi/abs/10.1145/3301300?casa_token=xiS8Iicds4sAAAAA:M-Wh_zwWGlsdj3QyD2GiK3uS66R484zPvbZJcsWke-UPkWMH3VYJKE0wx035cOlRn0-ux3J-hArmSCo)).
+This folder contains the files to perform the aggregation sequence encoding (code stems from [Teinemaa et. al. (2019)](https://dl.acm.org/doi/abs/10.1145/3301300?casa_token=xiS8Iicds4sAAAAA:M-Wh_zwWGlsdj3QyD2GiK3uS66R484zPvbZJcsWke-UPkWMH3VYJKE0wx035cOlRn0-ux3J-hArmSCo)).
 
-##<sub>The different .py files</sub>
+## <sub>The different .py files</sub>
 
 ### Preprocessing files 
 
